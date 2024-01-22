@@ -8,12 +8,13 @@
 
 This script encodes data/text as face64, which is base64 that is then shifted up into the utf-8 smiley face range.
 It's bigger than base64, which is already bigger than source, so you're not going to want to you use this for anything but fun.
-But it is quote a site to behold.
+But it is quite a site to behold!
 
-It converts the base64, and then replaces the characters with emojis by using the ordinals and adding an offset up into the smiley category.
+It converts the base64, and then replaces the characters with emojis by using the ordinals, converting to utf-8 and adding an offset up into the smiley category.
+Yes, that does mean it's big, but not compared to GTAV so get over it.
 
 ## Installation:
-clone the repo, cd into the directory, run the python setup.py install script. It's set up for pip but isn't there yet, 
+clone the repo, cd into the directory, run the python setup.py install script. It's set up for pip but isn't there yet.
 
 ```shell
 git clone https://github.com/mrkwllmsn/face64
