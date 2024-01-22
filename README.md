@@ -32,14 +32,21 @@ $ echo "🦋🥧🦋🦨🦗🥸🥷🦥🦘🥧🥩🦣🦙🥸🥷🥥🦖🥼
 Well isn't this a silly thing.
 ```
 
+or you could...
+```shell
+$ echo "Well isn't this a silly thing." | face64 | face64 -d
+Well isn't this a silly thing.
+```
+
 ## Options
 
  -d decode
+
      Decode an encoded string
 
 -f offset <optional> (number)
-     Change the offset used by the encoder, this changes the pictures that appear.
 
+     Change the offset used by the encoder, this changes the pictures that appear.
 
 
 ## Uninstall:
