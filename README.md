@@ -56,4 +56,5 @@ Well isn't this a silly thing.
 pip uninstall face64
 ```
 
-
+## TODO / LIMITATIONS
+ You can't encode binary data with it yet, I intend to handle that soon. 
