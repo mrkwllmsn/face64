@@ -9,8 +9,9 @@ But it is quote a site to behold.
 It converts the base64, and then replaces the characters with emojis by using the ordinals and adding an offset up into the smiley category.
 
 ## Installation:
+clone the repo, cd into the directory, run the python setup.py install script. It's set up for pip but isn't there yet, 
+
 ```shell
-clone the repo, cd into the directory
 git clone https://github.com/mrkwllmsn/face64
 cd face64
 python3 setup.py install
@@ -38,3 +39,14 @@ Well isn't this a silly thing.
 
 -f offset <optional> (number)
      Change the offset used by the encoder, this changes the pictures that appear.
+
+
+
+## Uninstall:
+ Why tho? haha, ok fair enough.
+
+```shell
+pip uninstall face64
+```
+
+
