@@ -25,7 +25,7 @@ python3 setup.py install
 You should then get face64 available to you.
 
 ## Usage
-You can pass your message to it as an argument, you send it to stdin.
+You can pass your message to it as an argument (You don't need to quote it if you don't want to), or you can send it to stdin.
 
 ```shell
 $ face64 "Well isn't this a silly thing."
