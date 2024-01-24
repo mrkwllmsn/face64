@@ -43,6 +43,16 @@ $ echo "Well isn't this a silly thing." | face64 | face64 -d
 Well isn't this a silly thing.
 ```
 
+
+### example using smileys and how to decode it again 
+```shell
+$ echo "This script has changed my life" | face64 -s
+😦😗😸🙀😳🙉😒🙊😩😃😚🙀😳😘😡😷😱😗😖🙊😙😗😞😿😩😧😅😾😪😧😡😷😲😨😻😷😲😗😼😽😪😡😍😍
+$ echo "😦😗😸🙀😳🙉😒🙊😩😃😚🙀😳😘😡😷😱😗😖🙊😙😗😞😿😩😧😅😾😪😧😡😷😲😨😻😷😲😗😼😽😪😡😍😍" | face64 -d -s
+This script has changed my life
+```
+
+
 ## Options
 
  --decode -d
