@@ -45,13 +45,14 @@ Well isn't this a silly thing.
 
 ## Options
 
- -d decode
-
+ --decode -d
      Decode an encoded string
 
--f offset <optional> (number)
+--offset -f offset (number value, eg -f -100)
+     Change the offset used by the encoder, this changes the pictures that appear. Some work better than others.
 
-     Change the offset used by the encoder, this changes the pictures that appear.
+--smiley -s Smileys
+    Make all the output smiley faces instead of the default face64 emojis which is more of a mix.
 
 
 ## Uninstall:

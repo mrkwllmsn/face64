@@ -15,6 +15,7 @@ def main():
     parser = argparse.ArgumentParser(description="Encode or decode text using face64. It's big and fun.")
     parser.add_argument("-d", "--decode", action="store_true", help="Decode the input text.")
     parser.add_argument('-f', '--offset', type=int, help='Offset')
+    parser.add_argument('-s', '--smiley', action="store_true", help='Smiley version. All faces')
     parser.add_argument('text', nargs='*', help='Text to encode')
     args = parser.parse_args()
     offset = base_offset = 129333
@@ -34,6 +35,10 @@ def main():
     if input_text is not None:
         if args.offset:
             offset = base_offset + args.offset
+
+        if args.smiley:
+            offset = base_offset - 869
+            #Another magic number I found using brute force.
 
         if args.decode:
             Face64 = face64encoder(offset)
